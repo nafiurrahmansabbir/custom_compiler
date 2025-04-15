@@ -1,0 +1,43 @@
+dekhau("------Start program-------");
+
+
+mytype height;
+mytype weight;
+
+height = 175;
+weight = 85;
+
+bmi(height, weight);
+
+jodi (5 > 160) {
+   dekhau("if");
+} nahoi {
+    dekhau("else");
+}
+
+
+dekhau("-------------Output of Math Calculation------");
+mytype a;
+mytype b;
+mytype c;
+a = 10;
+b = 20;
+c = a + b;
+show(c);
+
+c = b - a;
+show(c);
+
+c = a * b;
+show(c);
+
+c = b / a;
+show(c);
+
+c = b / 0;
+
+
+
+degToF(37);
+farToDeg(98);
+

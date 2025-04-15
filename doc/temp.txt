@@ -1,0 +1,25 @@
+mytype x;
+x = 5;
+show(x);
+
+mytype y;
+y = 10;
+show(y);
+
+if (x < y) {
+    show(x);
+} else {
+    show(y);
+}
+
+while (x < 10) {
+    x = x + 1;
+    show(x);
+}
+
+mytype i;
+i = 0;
+while (i < 3) {
+    print("Looping...");
+    i = i + 1;
+}

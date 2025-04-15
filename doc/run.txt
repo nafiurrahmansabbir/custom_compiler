@@ -1,0 +1,4 @@
+flex lexer.l
+bison -d parser.y
+gcc -o output parser.tab.c lex.yy.c
+Get-Content input.txt | ./output.exe
