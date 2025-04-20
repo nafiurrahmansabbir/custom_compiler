@@ -7,9 +7,10 @@
 
 %%
 
-mytype              { return MYTYPE; }
-mytype              { return MYTYPE; }
+mytype             { return MYTYPE; }
+dhoron              { return MYTYPE; }
 show                { return SHOW; }
+sapau                { return SHOW; }
 print               { return PRINT; }
 dekhau               { return PRINT; } //add
 if                  { return IF; }

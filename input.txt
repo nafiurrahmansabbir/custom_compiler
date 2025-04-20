@@ -1,8 +1,8 @@
 dekhau("------Start program-------");
 
 
-mytype height;
-mytype weight;
+dhoron height;
+dhoron weight;
 
 height = 175;
 weight = 85;
@@ -10,6 +10,7 @@ weight = 85;
 bmi(height, weight);
 
 jodi (5 > 160) {
+    
    dekhau("if");
 } nahoi {
     dekhau("else");
@@ -17,9 +18,9 @@ jodi (5 > 160) {
 
 
 dekhau("-------------Output of Math Calculation------");
-mytype a;
-mytype b;
-mytype c;
+dhoron a;
+dhoron b;
+dhoron c;
 a = 10;
 b = 20;
 c = a + b;
@@ -37,7 +38,8 @@ show(c);
 c = b / 0;
 
 
-
+dekhau("Degree to fahrenheit");
 degToF(37);
+dekhau("Fahrenheit to Degree");
 farToDeg(98);
 

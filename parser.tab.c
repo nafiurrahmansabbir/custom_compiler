@@ -1479,14 +1479,14 @@ yyreduce:
 
 /* Line 1455 of yacc.c  */
 #line 85 "parser.y"
-    { if ((yyvsp[(3) - (7)].num)) { /* then executed */ } ;}
+    { if ((yyvsp[(3) - (7)].num)) {printf("exicuted"); } ;}
     break;
 
   case 11:
 
 /* Line 1455 of yacc.c  */
 #line 88 "parser.y"
-    { if ((yyvsp[(3) - (11)].num)) { /* then */ } else { /* else */ } ;}
+    { if ((yyvsp[(3) - (11)].num)) { printf("exicuted"); } else {printf("else exicuted"); } ;}
     break;
 
   case 12:

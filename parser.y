@@ -82,10 +82,10 @@ statement:
         }
 
     | IF '(' condition ')' '{' statements '}' 
-        { if ($3) { /* then executed */ } }
+        { if ($3) {printf("exicuted"); } }
 
     | IF '(' condition ')' '{' statements '}' ELSE '{' statements '}' 
-        { if ($3) { /* then */ } else { /* else */ } }
+        { if ($3) { printf("exicuted"); } else {printf("else exicuted"); } }
 
     | WHILE '(' condition ')' '{' statements '}' 
     {
